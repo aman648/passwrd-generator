@@ -1,0 +1,11 @@
+import random
+
+uppercase = "ABCDEGFHIJKLMNPQRSTUVWXYZ"
+lowercase = "abcdefghijklmnpqrstuvwxyz"
+signs = "!@#$%^&*()"
+numbers= "1234567890"
+
+case = uppercase+lowercase+signs+numbers
+length=8
+x= "".join(random.sample(case,length))
+print(x)
